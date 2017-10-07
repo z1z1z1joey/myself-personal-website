@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  background-image: url(img/grey.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  /*border: 1px solid blue;*/
+  /*overflow: auto;*/
+  width: 100vw;
+  margin: 0 auto;
+  height: 100%;
+}
+
+#contact, #content, #nav {
+  display: inline-block;
+  border: 1px solid #ccc; /*匡線1 px 顏色 灰色*/
+  margin-right: 10px;/*border匡線外面 多30px*/
+  padding: 10px;/*boerder匡限內部 多30px */
+  width: calc( (100% - 50px) /3);
+  line-height: 100%;
+  height: 800px;
+  overflow: auto;
+  /*height: 100vh;*/
+}
+#detail img{
+  width: 100px;
+  height: 100px;
+}
+
+.glyphicon {
+    font-size: 80px;
+}
+
+#me img{
+  width: 200px;
+  height: 250px;
+}
+
+#contact {
+  float: right;
+  width: 25%;
+  background-image: url(img/blue.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#content {
+  width: 64%;
+  background-color: white;
+}
+
+#nav {
+  float: left;
+  width: 120px;
+}
+
+#detail img {
+  /*border: 10px solid red;*/
+  margin: 0;
+  padding: 0;
+}
+
+/*
+.left {
+float:left;
+width: 30%;
+}
+
+.right {
+float:right;
+width: 30%;
+}
+
+.mid {
+width: 30%;
+}*/
